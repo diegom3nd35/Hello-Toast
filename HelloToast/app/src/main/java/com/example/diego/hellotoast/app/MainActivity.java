@@ -1,7 +1,9 @@
-package com.example.diego.hellotoast;
+package com.example.diego.hellotoast.app;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.diego.hellotoast.R;
 
 public class MainActivity extends AppCompatActivity {
 
