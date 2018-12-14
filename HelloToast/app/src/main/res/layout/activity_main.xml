@@ -14,43 +14,44 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:background="@color/colorPrimary"
+        android:onClick="toast"
         android:text="@string/toast"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_count"
+        android:id="@+id/button_contar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:background="@color/colorPrimary"
+        android:onClick="contar"
         android:text="@string/count"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/text_show_count"
+        android:id="@+id/text_mostra_incremento"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_orange_dark"
         android:fontFamily="sans-serif"
         android:gravity="center_vertical"
         android:text="@string/_0"
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textSize="160sp"
-        android:background="@android:color/holo_orange_dark"
-        app:layout_constraintBottom_toTopOf="@+id/button_count"
+        app:layout_constraintBottom_toTopOf="@+id/button_contar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_toast"
-         />
+        app:layout_constraintTop_toBottomOf="@+id/button_toast" />
 
 </android.support.constraint.ConstraintLayout>
